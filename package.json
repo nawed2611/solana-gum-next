@@ -1,11 +1,9 @@
 {
-  "name": "nextjs-solana-starter-kit",
+  "name": "gum-next",
   "description": "Build your own Solana dApp with NextJS and TypeScript",
   "version": "0.1.0",
   "author": {
-    "name": "Bernardo Raposo",
-    "email": "hi@bernardoraposo.com",
-    "url": "http://bernardoraposo.com"
+    "name": "Nawed"
   },
   "license": "MIT",
   "scripts": {
@@ -15,6 +13,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gumhq/react-sdk": "^1.0.6",
     "@solana/spl-name-service": "^0.1.4",
     "@solana/spl-token": "^0.3.7",
     "@solana/wallet-adapter-base": "^0.9.20",
